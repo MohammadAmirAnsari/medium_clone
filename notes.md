@@ -50,3 +50,6 @@ php artisan cache:clear
 
 php artisan key:generate
 <!-- generate APP_KEY in .env -->
+
+php artisan make:controller {{controller_name}} --resource
+<!-- resource is special flag that give predefined methods like index, show etc -->

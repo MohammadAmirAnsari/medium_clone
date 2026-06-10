@@ -15,7 +15,9 @@ class PostController extends Controller
     {
         //
         $categories = Category::get();
-        return view('dashboard')->with(compact('categories'));
+        $posts = Post::latest()->simplePaginate();
+
+        return view('dashboard')->with(compact('categories','posts'));
     }
 
     /**
