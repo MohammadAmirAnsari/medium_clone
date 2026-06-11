@@ -13,11 +13,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
-        $categories = Category::get();
         $posts = Post::latest()->simplePaginate();
 
-        return view('dashboard')->with(compact('categories','posts'));
+        return view('dashboard')->with(compact('posts'));
     }
 
     /**
