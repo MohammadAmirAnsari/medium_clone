@@ -1,6 +1,9 @@
 <!-- https://youtu.be/MG1kt_wiIz0
 ?t=4002 -->
 
+<!-- flobite -->
+https://flowbite.com/docs/getting-started/introduction/
+
 composer require laravel/installer
 <!-- installs laravel -->
 

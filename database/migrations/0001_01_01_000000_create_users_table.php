@@ -27,7 +27,7 @@ return new class extends Migration
             DB::table('users')->insert([
                 'name' => 'Amir',
                 'email' => 'amir@test.com',
-                'password' => 'Qwerty@123'
+                'password' => password_hash('amir@123', PASSWORD_DEFAULT),
             ]);
         }
 

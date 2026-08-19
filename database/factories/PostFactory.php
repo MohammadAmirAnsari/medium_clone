@@ -23,7 +23,8 @@ class PostFactory extends Factory
             'title' => $title,
             'slug' => \Illuminate\Support\Str::slug($title),
             'content' => fake()->paragraph(),
-            'image' => fake()->imageUrl(),
+            // 'image' => fake()->imageUrl(),
+            'image' => "https://picsum.photos/600/400?random=" . rand(1, 200),
             'category_id' => Category::inRandomOrder()->first()->id,
             'user_id' => 1,
             'published_at' => fake()->optional()->dateTime()
