@@ -56,3 +56,5 @@ php artisan key:generate
 
 php artisan make:controller {{controller_name}} --resource
 <!-- resource is special flag that give predefined methods like index, show etc -->
+
+slots is anything between opening and closing component tags
