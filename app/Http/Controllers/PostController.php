@@ -15,7 +15,7 @@ class PostController extends Controller
     {
         $posts = Post::latest()->simplePaginate();
 
-        return view('dashboard')->with(compact('posts'));
+        return view('post.index')->with(compact('posts'));
     }
 
     /**
