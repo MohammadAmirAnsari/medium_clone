@@ -6,7 +6,7 @@
                 <ul class="flex flex-wrap text-sm font-medium text-center justify-center">
 
                     <li class="me-2">
-                        <a href="#" class="inline-block px-4 py-2 text-white bg-brand rounded-base active"
+                        <a href="#" class="inline-block px-4 py-2 text-white bg-brand hover:bg-brand-strong rounded-base active dark:bg-brand-dark dark:hover:bg-brand-dark-strong"
                             aria-current="page">All</a>
                     </li>
 

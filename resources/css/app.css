@@ -13,3 +13,34 @@
 [x-cloak] {
     display: none !important;
 }
+
+
+:root {
+    --color-brand-softer: var(--color-purple-50);
+    --color-brand-soft: var(--color-purple-100);
+    --color-brand: var(--color-purple-700);
+    --color-brand-medium: var(--color-purple-200);
+    --color-brand-strong: var(--color-purple-800);
+
+    --color-brand-dark-softer: var(--color-indigo-50);
+    --color-brand-dark-soft: var(--color-indigo-100);
+    --color-brand-dark: var(--color-indigo-700);
+    --color-brand-dark-medium: var(--color-indigo-200);
+    --color-brand-dark-strong: var(--color-indigo-800);
+}
+
+@theme {
+
+    --color-brand-softer: var(--color-brand-softer);
+    --color-brand-soft: var(--color-brand-soft);
+    --color-brand: var(--color-brand);
+    --color-brand-medium: var(--color-brand-medium);
+    --color-brand-strong: var(--color-brand-strong);
+
+    --color-brand-dark-softer: var(--color-brand-dark-softer);
+    --color-brand-dark-soft: var(--color-brand-dark-soft);
+    --color-brand-dark: : var(--color-brand-dark);
+    --color-brand-dark-medium: var(--color-brand-dark-medium);
+    --color-brand-dark-strong: var(--color-brand-dark-strong);
+
+}
